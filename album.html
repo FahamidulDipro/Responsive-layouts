@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .photo_album {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .photo_frame {
+        width: 400px;
+        /* height: 200px; */
+        border: 2px solid tomato;
+        border-radius: 5px;
+        padding: 10px;
+        position: relative;
+        cursor: pointer;
+        margin: 10px;
+        overflow: hidden;
+    }
+    
+    .photo img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    .photo_detail {
+        position: absolute;
+        width: 400px;
+        top: 0;
+        display: none;
+        /* color: wheat; */
+    }
+    
+    .photo_frame:hover .photo_detail {
+        display: block;
+        background-color: rgba(216, 191, 216, 0.212);
+    }
+    
+    .photo_frame:hover .photo {
+        transform: scale(1.3);
+        transition: transform .3s ease;
+    }
+    
+    .photo_detail h3 {
+        background-color: black;
+        color: whitesmoke;
+        text-align: center;
+        padding: 5px;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album</title>
+</head>
+
+<body>
+    <h1>My Great album with Monkeys</h1>
+    <section>
+        <h3>Monkey Album</h3>
+        <div class="photo_album">
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="images/monkey.jpg" alt="Monkey">
+                </div>
+                <div class="photo_detail">
+                    <h3>Monkey candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi ad. Atque voluptas culpa odio incidunt ex, dolores assumenda dicta unde velit. Ducimus dicta qui, aspernatur vel aliquam porro soluta minus obcaecati aliquid
+                        est non molestiae pariatur. Doloremque, earum. Amet odio mollitia fuga fugiat eius unde tempore nihil perspiciatis dolore.</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="images/bear.jpg" alt="Monkey">
+                </div>
+                <div class="photo_detail">
+                    <h3>Monkey candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi ad. Atque voluptas culpa odio incidunt ex, dolores assumenda dicta unde velit. Ducimus dicta qui, aspernatur vel aliquam porro soluta minus obcaecati aliquid
+                        est non molestiae pariatur. Doloremque, earum. Amet odio mollitia fuga fugiat eius unde tempore nihil perspiciatis dolore.</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="images/monkey.jpg" alt="Monkey">
+                </div>
+                <div class="photo_detail">
+                    <h3>Monkey candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi ad. Atque voluptas culpa odio incidunt ex, dolores assumenda dicta unde velit. Ducimus dicta qui, aspernatur vel aliquam porro soluta minus obcaecati aliquid
+                        est non molestiae pariatur. Doloremque, earum. Amet odio mollitia fuga fugiat eius unde tempore nihil perspiciatis dolore.</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="images/monkey.jpg" alt="Monkey">
+                </div>
+                <div class="photo_detail">
+                    <h3>Monkey candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi ad. Atque voluptas culpa odio incidunt ex, dolores assumenda dicta unde velit. Ducimus dicta qui, aspernatur vel aliquam porro soluta minus obcaecati aliquid
+                        est non molestiae pariatur. Doloremque, earum. Amet odio mollitia fuga fugiat eius unde tempore nihil perspiciatis dolore.</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="images/monkey.jpg" alt="Monkey">
+                </div>
+                <div class="photo_detail">
+                    <h3>Monkey candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi ad. Atque voluptas culpa odio incidunt ex, dolores assumenda dicta unde velit. Ducimus dicta qui, aspernatur vel aliquam porro soluta minus obcaecati aliquid
+                        est non molestiae pariatur. Doloremque, earum. Amet odio mollitia fuga fugiat eius unde tempore nihil perspiciatis dolore.</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="images/monkey.jpg" alt="Monkey">
+                </div>
+                <div class="photo_detail">
+                    <h3>Monkey candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi ad. Atque voluptas culpa odio incidunt ex, dolores assumenda dicta unde velit. Ducimus dicta qui, aspernatur vel aliquam porro soluta minus obcaecati aliquid
+                        est non molestiae pariatur. Doloremque, earum. Amet odio mollitia fuga fugiat eius unde tempore nihil perspiciatis dolore.</p>
+                </div>
+            </div>
+            <div class="photo_frame">
+                <div class="photo">
+                    <img src="images/monkey.jpg" alt="Monkey">
+                </div>
+                <div class="photo_detail">
+                    <h3>Monkey candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, animi ad. Atque voluptas culpa odio incidunt ex, dolores assumenda dicta unde velit. Ducimus dicta qui, aspernatur vel aliquam porro soluta minus obcaecati aliquid
+                        est non molestiae pariatur. Doloremque, earum. Amet odio mollitia fuga fugiat eius unde tempore nihil perspiciatis dolore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
